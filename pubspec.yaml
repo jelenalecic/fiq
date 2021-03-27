@@ -1,0 +1,45 @@
+name: fiq
+description: Flutter interview questions with answers
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  url_launcher: 5.7.10
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+
+  fonts:
+    - family: OpenSans
+      fonts:
+        - asset: fonts/OpenSans-Light.ttf
+          weight: 200
+        - asset: fonts/OpenSans-Regular.ttf
+          weight: 400
+        - asset: fonts/OpenSans-SemiBold.ttf
+          weight: 600
+        - asset: fonts/OpenSans-Bold.ttf
+          weight: 700
+        - asset: fonts/OpenSans-ExtraBold.ttf
+          weight: 900
+
+
+
+
