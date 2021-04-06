@@ -4,7 +4,7 @@ import 'package:flutter/material.dart';
 
 class WhatIsDart extends StatelessWidget {
   const WhatIsDart({Key key}) : super(key: key);
-  // types of compilers
+
   @override
   Widget build(BuildContext context) {
     return Column(

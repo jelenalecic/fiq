@@ -1,5 +1,6 @@
 import 'package:fiq/custom/not_implemented.dart';
 import 'package:fiq/questions/data/question.dart';
+import 'package:fiq/questions/widgets/dart/explain_async_future_await.dart';
 import 'package:fiq/questions/widgets/general/dart_explanation.dart';
 import 'package:fiq/questions/widgets/general/explain_static_code_analysis.dart';
 import 'package:fiq/questions/widgets/general/flutter_explanation.dart';
@@ -19,7 +20,7 @@ List<Question> questions = <Question>[
   Question('What is Dart?', const WhatIsDart(), QuestionType.general),
   Question('What are packages and plugins?',
       const PackagesAndPluginsExplanation(), QuestionType.general),
-  Question('Explain Async/Await/Future.', const NotYetImplemented(),
+  Question('Explain Async/Await/Future.', const ExplainAsyncAwaitFuture(),
       QuestionType.dart),
   Question('What types of parameters exist in Dart?', const NotYetImplemented(),
       QuestionType.dart),
@@ -47,8 +48,8 @@ List<Question> questions = <Question>[
       QuestionType.general),
   Question('Explain extension methods.', const NotYetImplemented(),
       QuestionType.dart),
-  Question('Explain how static code analysis works.', const StaticCodeAnalysis(),
-      QuestionType.general),
+  Question('Explain how static code analysis works.',
+      const StaticCodeAnalysis(), QuestionType.general),
   Question(
       'What is a BuildContext?', const NotYetImplemented(), QuestionType.ui),
   Question('What is a WidgetsBindingObserver?', const NotYetImplemented(),
